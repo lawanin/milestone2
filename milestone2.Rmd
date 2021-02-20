@@ -1,0 +1,62 @@
+---
+title: "Milestone 2"
+author: "Nosa Lawani"
+date: "2/19/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, Harvard Blocking Group Comments}
+# Harvard Blocking Group Comments
+#This answers one of the questions I had about whether a survey would be 
+# necessary, it looks like it would be, since the 2019 group had to do so. They
+# used demographic matching to official  Harvard data to ensure a represenatative
+# sample, which was absent in this project. The matches were quite close. I really 
+# like the questions that were asked here. The self-segregation graphs were very 
+# good once I understood them, but the y-axis made it a little bit unintutive, and 
+# it may even be less so to someone even less familiar with sampling. I think the 
+# group size information is valuable but perhaps could be more informative if 
+# paired with the number of students in a given group size, rather than the number
+# of groups, which can be misleading at first thought. I have heard a little chatter
+# about the rumours in the quad, so that data is also very interesting. Again, 
+# I think blocking with COVID-19 would form an interesting comparison with paste
+# projects like this. I imagine they would have had to clean all of their survey
+# data which would have taken so time, though I believe Google Surveys, for
+# instance,  can output in an excel or csv format. 
+```
+
+```{r, More Permits More Problems}
+# More Permits More Problems
+# I chose to look at this project as it was the only one that dealt with national
+# data, which was the first thing I had in mind for gun violence. The permits by 
+# month was interesting to see, especially the recurrence of March in some years, 
+# but I wasn't sure exactly what to make of it, or why, in real life, it was more
+# telling that just the aggregate in a year, especially when it came to comparing 
+# between states. One question I had on the problem set was about the validity 
+# of a linear model for different types of data. I have the same question here, 
+# the author seems to use this line to support the positive correlation between 
+# permits and incidents of violence, but almost all of the events with a truly 
+# extraordinairy amount of gun permits defy this trend. Within those that have the 
+# normal range, the dara does not at all seem linear, or very strongly correlated. 
+# There does seem to be lots of variation by region, which supports my inclination
+# to look more at demographic information than permits. I think for the graph of 
+# incidents by state, a map may have been more helpful than a legend with the 50
+# states, which is very hard for me to interpret. I don't really understand the 
+# coefficient plot, but it seems to address the question I am asking. The state 
+# policy data was very interesting, but I wonder if there might have been a way to
+# make the presentation clearer. I did not really understand how the author came to 
+# her conclusion at the end, that there appears to be little correlation between
+# gun policy and incidents of violence. It appears that several of her sources, 
+# suprisingly, including the one about gun policies, already had datasets ready on
+# Github for R. It seems she would have had to gather the NICS background data 
+# herself, and it is good for me to know that this data exists and that it is a
+# strong indicator for gun purchases.
+```
+
+
+```{r, Github link}
+# Github link:
+# https://github.com/lawanin/milestone2.git
